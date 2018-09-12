@@ -3,6 +3,8 @@ var app = express();
 var childProcess = require('child_process');
 var username = "Ebin-Benny"
 
+app.listen(8080, () => console.log('Listening on Port 8080'));
+
 app.post("/webhook/github", function(req,res) {
 	var sender = req.body.sender;
 	
