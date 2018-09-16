@@ -842,14 +842,14 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   flex-wrap: wrap;
 }
 
-.probootstrap-half .image-wrap, .probootstrap-half .text {
-  width: 50%;
-}
+    .probootstrap-half .image-wrap, .probootstrap-half .text, .probootstrap-half .text-light {
+        width: 50%;
+    }
 
 @media screen and (max-width: 1000px) {
-  .probootstrap-half .image-wrap, .probootstrap-half .text {
-    width: 100%;
-  }
+    .probootstrap-half .image-wrap, .probootstrap-half .text, .probootstrap-half .text-light {
+        width: 100%;
+    }
 }
 
 .probootstrap-half .image-wrap {
@@ -874,47 +874,47 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   background-color: #f4bd00;
 }
 
-.probootstrap-half .text {
-  padding: 100px;
-  background: #161C2E;
+.probootstrap-half .text, .probootstrap-half .text-light {
+    padding: 100px;
+    background: #161C2E;
 }
 
 @media screen and (max-width: 1000px) {
-  .probootstrap-half .text {
-    width: 100%;
-    padding: 30px 15px;
-    float: left;
-  }
+    .probootstrap-half .text, .probootstrap-half .text-light {
+        width: 100%;
+        padding: 30px 15px;
+        float: left;
+    }
 }
 
-.probootstrap-half .text .subtitle {
-  color: rgba(255, 255, 255, 0.2);
-  text-transform: uppercase;
+.probootstrap-half .text .subtitle, .probootstrap-half .text-light .subtitle {
+    color: rgba(255, 255, 255, 0.2);
+    text-transform: uppercase;
 }
 
-.probootstrap-half .text h2, .probootstrap-half .text h3, .probootstrap-half .text h4, .probootstrap-half .text h5 {
-  color: #ffffff;
+.probootstrap-half .text h2, .probootstrap-half .text h3, .probootstrap-half .text h4, .probootstrap-half .text h5, .probootstrap-half .text-light h2, .probootstrap-half .text-light h3, .probootstrap-half .text-light h4, .probootstrap-half .text-light h5 {
+    color: #ffffff;
 }
 
-.probootstrap-half .text h3 {
-  line-height: 30px;
-  font-size: 30px;
-  margin-bottom: 30px;
-  text-transform: uppercase;
-  font-weight: 700;
+.probootstrap-half .text h3, .probootstrap-half .text-light h3 {
+    line-height: 30px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 @media screen and (max-width: 768px) {
-  .probootstrap-half .text h3 {
-    font-size: 24px;
-    line-height: 24px;
-  }
+    .probootstrap-half .text h3, .probootstrap-half .text-light h3 {
+        font-size: 24px;
+        line-height: 24px;
+    }
 }
 
-.probootstrap-half .text p {
-  font-size: 18px;
-  color: rgba(255, 255, 255, 0.5);
-  line-height: 1.5;
+.probootstrap-half .text p, .probootstrap-half .text-light p {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 1.5;
 }
 
 .probootstrap-half.reverse {
