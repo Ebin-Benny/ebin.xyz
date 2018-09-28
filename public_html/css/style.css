@@ -675,6 +675,24 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   border: 2px solid #ffffff;
 }
 
+.btn.btn-ghost.btn-ghost-black {
+  background: transparent;
+  border: 2px solid #000000;
+  color: #000000;
+}
+
+.btn.btn-ghost.btn-ghost-black:hover {
+  background: #000000;
+  color: #ddf0f3;
+}
+
+.btn.btn-ghost.btn-ghost-black:focus, .btn.btn-ghost.btn-ghost-black:active {
+  outline: none;
+  background: #000000;
+  color: #ddf0f3;
+  border: 2px solid #000000;
+}
+
 .btn.btn-black {
   background: #000000;
   color: #ffffff;
@@ -887,13 +905,22 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
     }
 }
 
-.probootstrap-half .text .subtitle, .probootstrap-half .text-light .subtitle {
+.probootstrap-half .text .subtitle {
     color: rgba(255, 255, 255, 0.2);
     text-transform: uppercase;
 }
 
-.probootstrap-half .text h2, .probootstrap-half .text h3, .probootstrap-half .text h4, .probootstrap-half .text h5, .probootstrap-half .text-light h2, .probootstrap-half .text-light h3, .probootstrap-half .text-light h4, .probootstrap-half .text-light h5 {
+.probootstrap-half .text-light .subtitle {
+    color: rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+}
+
+.probootstrap-half .text h2, .probootstrap-half .text h3, .probootstrap-half .text h4, .probootstrap-half .text h5 {
     color: #ffffff;
+}
+
+.probootstrap-half .text-light h2, .probootstrap-half .text-light h3, .probootstrap-half .text-light h4, .probootstrap-half .text-light h5 {
+    color: #000000;
 }
 
 .probootstrap-half .text h3, .probootstrap-half .text-light h3 {
@@ -911,9 +938,15 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
     }
 }
 
-.probootstrap-half .text p, .probootstrap-half .text-light p {
+.probootstrap-half .text p {
     font-size: 18px;
     color: rgba(255, 255, 255, 0.5);
+    line-height: 1.5;
+}
+
+.probootstrap-half .text-light p {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
     line-height: 1.5;
 }
 
@@ -939,10 +972,20 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   border-color: rgba(255, 255, 255, 0.2) !important;
 }
 
+.probootstrap-half .btn-ghost-black {
+  border-color: rgba(0, 0, 0, 0.2) !important;
+}
+
 .probootstrap-half .btn-ghost-white:hover, .probootstrap-half .btn-ghost-white:active, .probootstrap-half .btn-ghost-white:focus {
   background: none !important;
   border-color: #f4bd00 !important;
 }
+
+.probootstrap-half .btn-ghost-black:hover, .probootstrap-half .btn-ghost-black:active, .probootstrap-half .btn-ghost-black:focus {
+  background: none !important;
+  border-color: #ddf0f3 !important;
+}
+
 
 .probootstrap-half:hover .image, .probootstrap-half:focus .image, .probootstrap-half:active .image {
   -webkit-transform: scale(1.2);

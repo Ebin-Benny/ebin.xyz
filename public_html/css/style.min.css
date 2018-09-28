@@ -641,6 +641,25 @@ a {
                 border: 2px solid #fff
             }
 
+        .btn.btn-ghost.btn-ghost-black {
+            background: 0 0;
+            border: 2px solid #000;
+            color: #000
+        }
+
+            .btn.btn-ghost.btn-ghost-black:hover {
+                background: #000;
+                color: #ddf0f3
+            }
+
+            .btn.btn-ghost.btn-ghost-black:active, .btn.btn-ghost.btn-ghost-black:focus {
+                outline: 0;
+                background: #000;
+                color: #ddf0f3;
+                border: 2px solid #000
+            }
+
+
     .btn.btn-black, .btn.btn-black:active, .btn.btn-black:focus, .btn.btn-black:hover {
         background: #000;
         border: 1px solid #000;
@@ -850,12 +869,12 @@ a {
 }
 
     .probootstrap-half .text-light .subtitle {
-        color: rgba(255,255,255,.2);
+        color: rgba(0,0,0,.2);
         text-transform: uppercase
     }
 
     .probootstrap-half .text-light h2, .probootstrap-half .text-light h3, .probootstrap-half .text-light h4, .probootstrap-half .text-light h5 {
-        color: #fff
+        color: #000000
     }
 
     .probootstrap-half .text-light h3 {
@@ -873,9 +892,15 @@ a {
     }
 }
 
-.probootstrap-half .text p, .probootstrap-half .text-light p {
+.probootstrap-half .text p {
     font-size: 18px;
     color: rgba(255,255,255,.5);
+    line-height: 1.5
+}
+
+.probootstrap-half .text-light p {
+    font-size: 18px;
+    color: rgba(0,0,0,.5);
     line-height: 1.5
 }
 
@@ -910,6 +935,15 @@ a {
     .probootstrap-half .btn-ghost-white:active, .probootstrap-half .btn-ghost-white:focus, .probootstrap-half .btn-ghost-white:hover {
         background: 0 0 !important;
         border-color: #f4bd00 !important
+    }
+
+.probootstrap-half .btn-ghost-black {
+    border-color: rgba(0,0,0,.2) !important
+}
+
+    .probootstrap-half .btn-ghost-black:active, .probootstrap-half .btn-ghost-black:focus, .probootstrap-half .btn-ghost-black:hover {
+        background: 0 0 !important;
+        border-color: #ddf0f3 !important
     }
 
 .probootstrap-half:active .image, .probootstrap-half:focus .image, .probootstrap-half:hover .image {

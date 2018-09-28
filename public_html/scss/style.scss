@@ -21,11 +21,11 @@ body {
 }
 // selection
 ::selection {
-  background: $brand-black; 
+  background: $brand-black;
   color: $brand-white;
 }
 ::-moz-selection {
-  background: $brand-black; 
+  background: $brand-black;
   color: $brand-white;
 }
 // Typography
@@ -46,7 +46,7 @@ h1 {
 }
 
 h2 {
-	font-size: 2.827em; 
+	font-size: 2.827em;
 	@media screen and (max-width: $screen-sm) {
   	font-size: 2.10em;
   }
@@ -201,7 +201,7 @@ a {
 			.probootstrap-mobile-menu-active & {
 				border-bottom: none!important;
 				&:hover {
-					color: $brand-primary;	
+					color: $brand-primary;
 				}
 			}
 		}
@@ -281,20 +281,20 @@ a {
 }
 
 
-// intro 
+// intro
 .probootstrap-intro {
 	background-size: cover;
-	background-repeat: no-repeat; 
+	background-repeat: no-repeat;
 	position: relative;
 	top: 0;
-	
+
 	height: 100vh;
 	overflow: hidden;
 	@media screen and (max-width: $screen-sm) {
 		background-position: center center;
 	}
 	&.probootstrap-intro-inner {
-		height: 500px;	
+		height: 500px;
 	}
 	.probootstrap-scroll-down {
 		position: absolute;
@@ -544,7 +544,7 @@ a {
 			outline: none;
 			border: 2px solid lighten($brand-primary, 5%);
 		}
-		
+
 	}
 	&.btn-ghost {
 		background: transparent;
@@ -606,7 +606,7 @@ a {
 		border-top: 1px solid rgba(0,0,0,.1);
 	}
 	&.probootstrap-border-bottom {
-		border-bottom: 1px solid rgba(0,0,0,.1);	
+		border-bottom: 1px solid rgba(0,0,0,.1);
 	}
 	> .container {
 		&.probootstrap-border-top {
@@ -790,12 +790,12 @@ a {
         }
 
         .subtitle {
-            color: rgba(255,255,255,.2);
+            color: rgba(0,0,0,.2);
             text-transform: uppercase;
         }
 
         h2, h3, h4, h5 {
-            color: $brand-white;
+            color: #000000;
         }
 
         h3 {
@@ -813,7 +813,7 @@ a {
 
         p {
             font-size: 18px;
-            color: rgba(255,255,255,.5);
+            color: rgba(0,0,0,.5);
             line-height: 1.5;
         }
     }
@@ -840,6 +840,15 @@ a {
         &:hover, &:active, &:focus {
             background: none !important;
             border-color: rgba($brand-primary,1) !important;
+        }
+    }
+
+		.btn-ghost-dark {
+        border-color: rgba(0,0,0,.2) !important;
+
+        &:hover, &:active, &:focus {
+            background: none !important;
+            border-color: rgba($brand-darker,1) !important;
         }
     }
 
