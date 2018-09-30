@@ -17,3 +17,9 @@ sudo apt-get install -y nodejs`
 * pm2
 
 `sudo npm install -g pm2`
+
+* ufw
+
+`sudo apt-get install ufw`
+
+**Use ufw to ensure firewall is set up to only allow http connections.**
