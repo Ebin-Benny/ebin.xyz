@@ -104,7 +104,7 @@ a {
             text-decoration: none
         }
 
-.probootstrap-header {
+.probootstrap-header, .probootstrap-header-black {
     padding-top: 30px;
     padding-bottom: 30px;
     width: 100%;
@@ -292,6 +292,22 @@ a {
 
         .probootstrap-header-social li a {
             color: #fff
+        }
+
+.probootstrap-header-social-black {
+    position: absolute;
+    top: 34px;
+    right: 60px
+}
+
+    .probootstrap-header-social-black li {
+        display: inline;
+        list-style: none;
+        margin-left: 5px
+    }
+
+        .probootstrap-header-social-black li a {
+            color: #000
         }
 
 .mobile-menu-overlay {
@@ -506,7 +522,7 @@ a {
         transition: all .2s ease-out
     }
 
-.flexslider .probootstrap-heading, .section-heading h2 {
+.flexslider .probootstrap-heading, . flexslider .probootstrap-heading-black, .section-heading h2 {
     font-family: Rubik,sans-serif;
     text-transform: uppercase
 }
@@ -1609,6 +1625,22 @@ a {
 
             .flexslider .probootstrap-heading a:hover {
                 border-bottom: 2px solid #fff
+            }
+
+    .flexslider .probootstrap-heading-black {
+        color: #000;
+        font-size: 70px;
+        line-height: 60px;
+        font-weight: 700
+    }
+
+        .flexslider .probootstrap-heading-black a {
+            color: rgba(0,0,0,.8);
+            border-bottom: 2px solid rgba(0,0,0,.2)
+        }
+
+            .flexslider .probootstrap-heading-black a:hover {
+                border-bottom: 2px solid #000
             }
 
     .flexslider .probootstrap-sub-wrap {
